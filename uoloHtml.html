@@ -1,0 +1,1258 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="UPIN CIRCULAR" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <style type="text/css">
+      body {
+        margin: 0pt;
+        padding: 5pt;
+        display: -webkit-flex;
+        display: flex;
+        width: 90%;
+      }
+
+      .main {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+      .imgLogo {
+        height: 34px;
+        width: 31px;
+        border-radius: 50%;
+      }
+
+      .qrCode {
+        border-left: 1px solid gray;
+        border-bottom: 1px solid gray;
+        border-radius: 5px;
+        padding-right: 0px;
+      }
+      .qrCodeLogo {
+        width: 50%;
+        height: 60px;
+        padding: 8px;
+      }
+
+      table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 100%;
+      }
+
+      td {
+        border: 1px dashed black;
+        padding: 0 0 0 10px;
+        width: 50%;
+      }
+
+      table tr:first-child td {
+        border-top: none;
+      }
+      table tr:last-child td {
+        border-bottom: none;
+      }
+
+      table tr td:first-child {
+        border-left: none;
+      }
+      table tr td:last-child {
+        border-right: none;
+      }
+      .info-bottom {
+        padding-right: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <div class="main"> -->
+    <div class="table">
+      <table>
+        <tr>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >{{schoolName}}</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 100%" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+          <td>
+            <div
+              class="LogoandQr"
+              style="
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -ms-justify-content: space-between;
+                -webkit-justify-content: space-between;
+                padding-bottom: 10px;
+                padding-right: 0px;
+                padding-top: 0;
+              "
+            >
+              <div class="SchoolandStudent" style="padding-top: 5px">
+                <div class="schoolName">
+                  <img class="imgLogo" src="{{schoolLogo}}" />
+                  <span
+                    style="
+                      font-family: 'Outfit';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 17px;
+                      line-height: 18px;
+                      padding-left: 10px;
+                      color: #101828;
+                      letter-spacing: 0.45px;
+                    "
+                    >R.D Gyan Niketan</span
+                  >
+                </div>
+                <hr style="color: #d0d5dd; width: 280px" />
+                <div class="studata">
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Student Name: Darshit Gupta</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >Mobile Number: 94XXXXXXXX</span
+                    >
+                  </div>
+                  <div>
+                    <span
+                      style="
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        color: #101828;
+                        letter-spacing: 0.45px;
+                        padding: 0 2 px;
+                      "
+                      >U-PIN: 123456</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="qrCode">
+                <div style="position: relative">
+                  <img class="qrCodeLogo" src="{{qrCodeLogo}}" />
+                </div>
+                <div style="text-align: center; width: 120px">
+                  <span
+                    style="
+                      font-family: 'Open Sans';
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 16px;
+                      letter-spacing: 0.4px;
+                      color: #101828;
+                    "
+                    >Scan Code to Install Learn App</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="info-bottom"
+              style="
+                font-family: 'Open Sans';
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.45px;
+                size: 13px;
+                color: #101828;
+                padding-bottom: 10px;
+              "
+            >
+              Dear Parent, <br />Our school has partnered with Uolo for all
+              school-related activities and communication. Login in the app with
+              provided number using OTP verification. In case you you don't
+              receive the OTP, login with UPIN
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>
